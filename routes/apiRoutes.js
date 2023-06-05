@@ -1,13 +1,26 @@
 const router = require('express').Router();
 const fs = require('fs');
+
+// this imporsts ths 'uuidv4' functin from the 'uuid' module to create unique identifiers
 const { v4: uuidv4 } = require('uuid');
 
-// GET route to retrieve all notes
-router.get('/api/notes', (req, res) => {
-    fs.readFile('./db/db.json', 'utf8', (err, data) => {
-        if (err) throw err;
-        res.json(JSON.parse(data));
-    });
+// route handler GET that uses asynchronous function
+router.get('/api/notes', async (req, res) => {
+    const jsonDB = await JSON.parse(fs.readFileSync("db/db.json", "utf8"));
+    res.json(jsonDB);
 });
 
 //TODO: POST route to add a note
+router.post('/api/notes', (req, res) => {
+    const jsonDB = JSON.parse(fs.readFileSync("db/db.json", "utf8"));
+    const newNote = {
+        title: req.body.title,
+        text: req.body.text,
+        id: uuidv4(),
+    };
+    jsonDB.push(newNote);
+    fs.writeFileSync("db/db.json", JSON.stringify(jsonDB));
+    res.json(jsonDB);
+});
+
+module.exports = router;
