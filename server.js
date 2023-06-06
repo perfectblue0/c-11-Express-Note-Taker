@@ -6,8 +6,6 @@ const apiRoutes = require('./routes/apiRoutes')
 // makes new app using express
 const app = express();
 
-
-
 // parses JSON data from incoming requests which allow the application to handle JSON payloads in the request body
 app.use(express.urlencoded({ extended: false }));
 

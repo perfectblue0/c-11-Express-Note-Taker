@@ -10,7 +10,7 @@ router.get('/api/notes', async (req, res) => {
     res.json(jsonDB);
 });
 
-//TODO: POST route to add a note
+// adds a new note to existing JSON data in db.json and returns updata data as response
 router.post('/api/notes', (req, res) => {
     const jsonDB = JSON.parse(fs.readFileSync("db/db.json", "utf8"));
     const newNote = {
