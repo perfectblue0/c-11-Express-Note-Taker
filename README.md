@@ -20,7 +20,8 @@ Cloning the repo is not necessary to use the application, but in case users wish
 ### Github Repo:  
 https://github.com/perfectblue0/c-11-Express-Note-Taker 
 ## Usage
-Users can click the "Get Started" button to 
+Once on the application page users may click the button “Get Started” to go to the note taking page. Users may click on the “Note Title” area and type in the title of their new note. Next users can click on the smaller “Note Text” to write their new note. When users have finished writing their note, they can then click on the save icon located to the left of the “+” that will save their new note. On the left side of the application, users can see their new note title and when they click on the title they will be able to view the title and body of their newly written note, and older notes as well.
+
 ## Credits
 
 ## License
