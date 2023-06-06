@@ -19,6 +19,8 @@ Cloning the repo is not necessary to use the application, but in case users wish
 
 ### Github Repo:  
 https://github.com/perfectblue0/c-11-Express-Note-Taker 
+### For a video preview of the basic functionality of this application, visit this link:  
+
 ## Usage
 Once on the application page users may click the button “Get Started” to go to the note taking page.  
 
@@ -36,7 +38,7 @@ On the left side of the application, users can see their new note title and when
 !['view of new note when selected'](./public/assets/images/shot-5.png) 
 
 ## Credits
-
+I used starter code provided by UC Berkeley Full-Stack Coding Bootcamp. I made my project with help from the Zoom recordings of in class instruction and a Youtube video tutorial by Thomas Calle found here: https://www.youtube.com/watch?v=-UiqzvUe360
 ## License
 Please refer to the repo.
 
