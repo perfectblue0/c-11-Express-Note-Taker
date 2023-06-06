@@ -20,7 +20,7 @@ https://vast-depths-98905.herokuapp.com
 ### Github Repo:  
 https://github.com/perfectblue0/c-11-Express-Note-Taker 
 ### For a video preview of the basic functionality of this application, visit this link:
-Coming Soon!
+https://drive.google.com/file/d/1g-ORa_GDdGaKYOMAqe5AMHqOEp6g6f0L/view
 
 ## Usage
 Once on the application page users may click the button “Get Started” to go to the note taking page.  
