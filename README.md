@@ -16,10 +16,11 @@ My motivation for this project was to modify starter code so that the applicatio
 Cloning the repo is not necessary to use the application, but in case users wish to clone the application they must use their command line to go to the folder where the application has been cloned. Next they will type “npm i” and the return key to download all the packages needed to use the application. Users can then type “npm start” and the return key; they will see a message that says "Server is listening on PORT: 3001”. To go straight to the application click on the link below.
 
 ### Deployed site on Heroku:  
-
+https://vast-depths-98905.herokuapp.com/notes
 ### Github Repo:  
 https://github.com/perfectblue0/c-11-Express-Note-Taker 
-### For a video preview of the basic functionality of this application, visit this link:  
+### For a video preview of the basic functionality of this application, visit this link:
+Coming Soon!
 
 ## Usage
 Once on the application page users may click the button “Get Started” to go to the note taking page.  
