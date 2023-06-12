@@ -1,10 +1,10 @@
 const router = require('express').Router();
 const fs = require('fs');
 
-// this imporsts ths 'uuidv4' functin from the 'uuid' module to create unique identifiers
+// this will be used to create unique identifiers
 const { v4: uuidv4 } = require('uuid');
 
-// route handler GET that uses asynchronous function
+// route handler GET that uses asynchronous function to execute request
 router.get('/api/notes', async (req, res) => {
     const jsonDB = await JSON.parse(fs.readFileSync("db/db.json", "utf8"));
     res.json(jsonDB);
