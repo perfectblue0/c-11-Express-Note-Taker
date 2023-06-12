@@ -2,7 +2,7 @@
 
 ## Description
 
-My motivation for this project was to modify starter code so that the application would allow users to save and retrieve note data from an Express.js back end. I contributed to this project so that I could practice using Express.js, Uuidv4, Node.js, and learn to deploy an application to Heroku. This application lets users write and save notes so they can organize their thoughts and keep track of tasks they need to complete.
+My motivation for this project was to modify starter code so that the application would allow users to save and retrieve note data from an Express.js back end. I contributed to this project so that I could practice refactoring, using Express.js, Uuidv4, Node.js, and learn to deploy an application to Heroku. This application lets users write and save notes so they can organize their thoughts and keep track of tasks they need to complete.
 
 
 ## Table of Contents
@@ -13,7 +13,7 @@ My motivation for this project was to modify starter code so that the applicatio
 - [License](#license)
 
 ## Installation
-Cloning the repo is not necessary to use the application, but in case users wish to clone the application they must use their command line to go to the folder where the application has been cloned. Next they will type “npm i” and the return key to download all the packages needed to use the application. Users can then type “npm start” and the return key; they will see a message that says "Server is listening on PORT: 3001”. To go straight to the application click on the link below.
+Cloning the repo is not necessary to use the application, but they are welcomed to do so if they wish. To use the application, users can click on the link below.
 
 ### Deployed site on Heroku:  
 https://vast-depths-98905.herokuapp.com
@@ -39,7 +39,7 @@ On the left side of the application, users can see their new note title and when
 !['view of new note when selected'](./public/assets/images/shot-5.png) 
 
 ## Credits
-I used starter code provided by UC Berkeley Full-Stack Coding Bootcamp. I made my project with help from the Zoom recordings of in class instruction and a Youtube video tutorial by Thomas Calle found here: https://www.youtube.com/watch?v=-UiqzvUe360
+I used starter code provided by UC Berkeley Full-Stack Coding Bootcamp. I made my project with help from the Zoom recordings of in class instruction, a Youtube video tutorial by Thomas Calle found here: https://www.youtube.com/watch?v=-UiqzvUe360 , StackOverflow, and assitance from examples of async/await found here: https://javascript.info/async-await
 ## License
 Please refer to the repo.
 
